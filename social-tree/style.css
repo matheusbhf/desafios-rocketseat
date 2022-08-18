@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html, body {
+
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAF7FD;
+
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .tree-container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-container .avatar {
+  width: 213px;
+  height: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #BB99DD;
+  border-radius: 50%;
+}
+
+.tree-container .avatar img{
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+.tree-container .insta-user {
+
+  color: purple;
+  margin-top: 10px;
+
+}
+
+.tree-container .links-container {
+
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  
+
+}
+
+.links-container .link {
+
+  border: 2px solid #BB99DD;
+  border-radius: 4px;
+  margin-top: 16px;
+  width: 325px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 12px 0;
+  transition: ease 0.4s;
+
+}
+
+.links-container .link:hover{
+
+  background: purple;
+  color: #FAF7FD;
+
+}
+
+.tree-container .redes-container {
+
+  margin-top: 68px;
+
+}
+
+.redes-container .redes{
+  margin: 0 10px;
+  transition: ease 0.3s;
+  transform: scale(0.9);
+}
+
+.redes-container .redes:hover{
+  transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
