@@ -1,0 +1,200 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Poppins:ital,wght@0,600;1,300&family=Work+Sans:ital,wght@0,500;0,700;1,400&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    transition: ease 0.8s;
+  }
+
+html, body {
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #121214;
+}
+
+.container {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 725px;
+  bottom: auto;
+  background-image: url(./assets/read_news.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  position: relative;
+  top: 50px;
+  left: 30px;
+
+}
+.logo .img-logo {
+  width: 389px;
+  height: 94px;
+}
+
+.text1 {
+  margin-left: 36px;
+  margin-top: 92px;
+  width: 647px;
+  height: 102px;
+}
+
+.text1 .highlight {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #04D361;
+  margin-bottom: 9px;
+}
+
+.text1 .minusculo{
+  font-family: 'Spartan',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: white;
+  margin-bottom: 9px;
+}
+
+.text1 .bold {
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: white;
+
+}
+
+
+
+.insert {
+
+  font-family: 'Spartan', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+  color:#A8A8A8;
+  position: absolute;
+  width: 133px;
+  height: 19px;
+  left: 36px;
+  top: 388px;
+
+}
+.form {
+
+  position: absolute;
+  width: 900px;
+  height: 48px;
+  left: 36px;
+  top: 424px;
+
+}
+
+.form .premail{
+  font-family: 'Spartan', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 700;
+  color:#A8A8A8;
+}
+.form .barramail {
+  width: 740px;
+  height: 48px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6A6A6A;
+  display: inline;
+  margin-left: 5px;
+  border: none;
+}
+
+.form .send{
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  top: 0px;
+  background-color: #8257e5;
+  border: none;
+  transition: ease-in-out 150ms;
+  
+}
+
+.form .send:hover {
+  background-color: #121214;
+  transition: ease-in-out 500ms;
+  
+}
+
+.form .green-bar {
+
+  height: 48px;
+  width: 5px;
+  background-color: #04D361;
+  position: relative;
+  bottom: 48px;
+  border: none ;
+
+
+}
+
+.send .send-image{
+
+color: #E1E1E6;
+
+}
+
+
+.link1 {
+  position: absolute;
+  width: 196px;
+  height: 24px;
+  left: 36px;
+  top: 522px;
+  
+  }
+
+.link1 .link-text {
+  text-decoration: none;
+  font-family: 'Spartan', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 138.73%;
+  color: #8257e5;
+}
+
+.link1 .arrow-img {
+  position: relative;
+  top: 8px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
